@@ -9,13 +9,14 @@ import TermsConditions from './pages/TermsConditions'
 import Notifications from './pages/Notifications'
 import HelpCenter from './pages/HelpCenter'
 import NotificationSettings from './pages/NotificationSettings'
+import LeadGen from './pages/LeadGen'
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route path="/" element={<BoostServices/>} />
+        <Route path="/" element={<LeadGen/>} />
         <Route path="/profile" element={<Profile/>} />
         <Route path="/service-completed" element={<ServiceCompleted/>} />
         <Route path="/userprofile-menu" element={<UserMenuPage/>} />
