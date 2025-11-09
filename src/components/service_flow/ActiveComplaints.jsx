@@ -29,7 +29,6 @@ function ActiveComplaints() {
                     
                 </div>
 
-                <ToolBar />
             </div>
         </>
     )
