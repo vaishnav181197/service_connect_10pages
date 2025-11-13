@@ -3,7 +3,7 @@ import React from 'react'
 
 function ActiveComplaintItem({job}) {
   return (
-     <div className="relative bg-white rounded-2xl mb-3 shadow-md p-4 sm:p-5 w-full max-w-sm mx-auto border border-gray-100">
+     <div className="relative bg-white rounded-2xl mb-3 shadow-md p-5 w-full max-w-3/4 mx-auto border border-gray-100 ">
       {/* Close Icon */}
       <button className="absolute top-3 right-3 text-gray-400 hover:text-gray-600">
         <i className="fa-solid fa-xmark"></i>

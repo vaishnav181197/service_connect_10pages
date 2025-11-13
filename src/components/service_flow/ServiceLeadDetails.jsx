@@ -60,19 +60,19 @@ function ServiceLeadDetails() {
                                     <div className='w-full px-20'>
                                         <h6>From</h6>
                                         <div className='w-full grid grid-cols-2 gap-3 text-center'>
-                                            <div className='bg-gray-300 py-2 rounded-lg shadow shadow-black'>
+                                            <div className='bg-gray-300 min-w-fit py-2 rounded-lg shadow shadow-black text-xs md:text-lg'>
                                                 June 10,2025
                                             </div>
-                                            <div className='bg-gray-300 py-2 rounded-lg shadow shadow-black'>
+                                            <div className='bg-gray-300 min-w-fit py-2 rounded-lg shadow shadow-black text-xs md:text-lg'>
                                                 09:41 AM
                                             </div>
                                         </div>
                                         <h6>To</h6>
                                         <div className='w-full grid grid-cols-2 gap-3 text-center'>
-                                            <div className='bg-gray-300 py-2 rounded-lg shadow shadow-black'>
+                                            <div className='bg-gray-300 min-w-fit py-2 rounded-lg shadow shadow-black text-xs md:text-lg'>
                                                 June 10,2025
                                             </div>
-                                            <div className='bg-gray-300 py-2 rounded-lg shadow shadow-black'>
+                                            <div className='bg-gray-300 min-w-fit py-2 rounded-lg shadow shadow-black text-xs md:text-lg'>
                                                 09:41 AM
                                             </div>
                                         </div>

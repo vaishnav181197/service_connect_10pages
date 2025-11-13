@@ -15,8 +15,8 @@ function AccountDetails() {
                     </div>
                 </div>
                 <div className='mt-5 grid grid-cols-2 gap-2 py-4'>
-                    <div className='flex justify-start shadow shadow-purple-400 gap-10 bg-purple-500 p-2 rounded-lg'>
-                        <span className='text-purple-500 text-2xl rounded-lg bg-white p-5'>
+                    <div className='flex min-w-fit justify-start shadow shadow-purple-400 gap-2 bg-purple-500 p-2 rounded-lg'>
+                        <span className='text-purple-500 text-2xl rounded-lg bg-white p-2 md:p-5'>
                             <i className="fa-solid fa-arrow-up"></i>
                         </span>
                         <span>
@@ -24,8 +24,8 @@ function AccountDetails() {
                             <h3 className='md:text-xl text-white'>$ 21,000</h3>
                         </span>
                     </div>
-                    <div className='flex justify-start shadow shadow-pink-400 gap-10 bg-pink-500 p-2 rounded-lg'>
-                        <span className='text-pink-500 text-2xl rounded-lg bg-white p-5'>
+                    <div className='flex min-w-fit justify-start shadow shadow-pink-400 gap-2 bg-pink-500 p-2 rounded-lg'>
+                        <span className='text-pink-500 text-2xl rounded-lg bg-white p-2 md:p-5'>
                             <i className="fa-solid fa-arrow-down"></i>
                         </span>
                         <span>

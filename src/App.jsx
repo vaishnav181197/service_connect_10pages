@@ -16,6 +16,8 @@ import Transactions from './pages/Transactions'
 import Complaints from './pages/Complaints'
 import Franchise from './pages/Franchise'
 import CreateAds from './pages/CreateAds'
+import ReviewList from './pages/ReviewList'
+import AdManagement from './pages/AdManagement'
 
 function App() {
 
@@ -37,7 +39,9 @@ function App() {
         <Route path="/financial83" element={<Financial/>} />
         <Route path="/transactions84" element={<Transactions/>} />
         <Route path="/complaints85" element={<Complaints/>} />
+        <Route path="/reviews86" element={<ReviewList/>} />
         <Route path="/franchise87" element={<Franchise/>} />
+        <Route path="/admng88" element={<AdManagement/>} />
         <Route path="/createads89" element={<CreateAds/>} />
       </Routes>
     </>

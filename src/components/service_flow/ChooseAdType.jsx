@@ -26,7 +26,7 @@ export default function ChooseAdType() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-200 flex flex-col items-center py-8 px-4 sm:px-6">
+    <div className="min-h-screen bg-gray-200 flex flex-col items-center py-4 px-4 sm:px-6">
       {/* Heading */}
       <h2 className="text-sm sm:text-base font-semibold text-gray-800 mb-5 self-start">
         Choose Your Ad type
@@ -37,9 +37,8 @@ export default function ChooseAdType() {
         {ads.map((ad, index) => (
           <div
             key={index}
-            className={`relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all cursor-pointer ${
-              ad.color ? ad.color : ""
-            } ${ad.height}`}
+            className={`relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all cursor-pointer ${ad.color ? ad.color : ""
+              } ${ad.height}`}
             style={{
               backgroundImage: ad.image ? "" : "none",
               backgroundSize: "cover",
@@ -47,9 +46,8 @@ export default function ChooseAdType() {
             }}
           >
             <div
-              className={`absolute inset-0 ${
-                ad.image ? "bg-black/40" : "bg-transparent"
-              }`}
+              className={`absolute inset-0 ${ad.image ? "bg-black/40" : "bg-transparent"
+                }`}
             ></div>
 
             {/* Text Content */}
@@ -62,6 +60,6 @@ export default function ChooseAdType() {
           </div>
         ))}
       </div>
-    </div>
-  );
+    </div>
+  );
 }
